@@ -1,13 +1,16 @@
-/// dystop.us | 08.02.2023
 
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 using CnC.Dev;
+using CnC.Utils;
 
-namespace CnC.AppManagement
+namespace CnC.App
 {
-    public class SceneSelector : MonoBehaviour
+    /// <summary>
+    /// dystop.us | 08.02.2023 03:14
+    /// </summary>
+    public class SceneSelector : MonoSingleton<SceneSelector>
     {
         #region Serialized fields
 
@@ -20,7 +23,8 @@ namespace CnC.AppManagement
 
         private void Start()
         {
-            LaunchScene(AppSceneID.SubrealEnvironment);
+            LaunchScene(AppSceneID.CnC_SubrealEnvironment);
+            LaunchScene(AppSceneID.CnC_UI);
         }
 
         #endregion

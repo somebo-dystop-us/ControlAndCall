@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace CnC.AppManagement
+namespace CnC.App
 {
     public class AppManager : MonoSingleton<AppManager>
     {

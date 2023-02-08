@@ -1,6 +1,5 @@
-/// 
-
-namespace CnC.AppManagement
+/// dystop.us | 08.02.2023 03:13
+namespace CnC.App
 {
     /// <summary>
     /// All of project's scenes should be listed here
@@ -12,30 +11,28 @@ namespace CnC.AppManagement
         /// <para>Contains:</para>
         /// <para>* AppManager prefab</para>
         /// </summary>
-        AppBoot = 0,
+        CnC_AppBoot = 0,
 
         /// <summary>
         /// CnC | World Root
         /// <para>Contains:</para>
         /// <para>* MonoSingleton | </para>
         /// </summary>
-        SubrealEnvironment = 1,
+        CnC_SubrealEnvironment = 1,
 
         /// <summary>
         /// CnC | UI Additional Scene
         /// <para>Contains:</para>
         /// <para>* MonoSingleton | UI Manager </para>
         /// </summary>
-        UIManagement = 2,
+        CnC_UI = 2,
 
         /// <summary>
         /// CnC | Cannabees's Sandbox
         /// <para>Contains:</para>
         /// <para>* AppManager prefab</para>
         /// </summary>
-        Sandbox = 3,
-
-
+        CnC_Sandbox = 3,
 
     }
 }
